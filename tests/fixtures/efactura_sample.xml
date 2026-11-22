@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+  <cbc:ID>ENG-20260400987</cbc:ID>
+  <cbc:IssueDate>2026-04-06</cbc:IssueDate>
+  <cbc:DueDate>2026-04-26</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:Note>Cod client: 55012345 | CLC: RO003G445566 | Index vechi: 2100 | Index nou: 2135 | Perioada autocitire: 20-25 ale lunii | Autocitire client</cbc:Note>
+  <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>55012345</cbc:BuyerReference>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2026-03-01</cbc:StartDate>
+    <cbc:EndDate>2026-03-31</cbc:EndDate>
+  </cac:InvoicePeriod>
+  <cac:ContractDocumentReference>
+    <cbc:ID>RO003G445566</cbc:ID>
+  </cac:ContractDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>ENGIE ROMANIA S.A.</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>RO 13093222</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>ENGIE ROMANIA S.A.</cbc:RegistrationName>
+        <cbc:CompanyID>RO13093222</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>ION POPESCU</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+    <cbc:AllowanceChargeReason>Reducere comercială factură electronică</cbc:AllowanceChargeReason>
+    <cbc:Amount currencyID="RON">10.00</cbc:Amount>
+    <cac:TaxCategory>
+      <cbc:ID>S</cbc:ID>
+      <cbc:Percent>19</cbc:Percent>
+      <cac:TaxScheme>
+        <cbc:ID>VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="RON">21.38</cbc:TaxAmount>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="RON">122.50</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="RON">112.50</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="RON">133.88</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="RON">10.00</cbc:AllowanceTotalAmount>
+    <cbc:PayableAmount currencyID="RON">133.88</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">350</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">91.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Gaze naturale furnizare consum casnic</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">0.260000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">350</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">31.50</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>Serviciu distribuție gaze naturale</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">0.090000</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

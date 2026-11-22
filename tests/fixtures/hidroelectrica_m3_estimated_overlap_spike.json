@@ -1,0 +1,56 @@
+{
+  "raw_text": "S.P.E.E.H. HIDROELECTRICA S.A. | CUI: RO13267213 | Factură serie HID nr. 20260301199 | Cod client: 80045192 | POD: RO001E123456789 | Perioada de facturare: 01.03.2026 - 31.03.2026 | Mod determinare: consum estimat conform convenție de consum | Index vechi: 14000 | Index nou: 14500 | Consum: 500 kWh | Perioada transmitere index autocitit: 24-28 ale lunii | Total de plată: 526,01 RON | Scadență: 25.04.2026",
+  "invoice": {
+    "provider_name": "Hidroelectrica",
+    "provider_cui": "RO13267213",
+    "category": "ELECTRICITY",
+    "client_code": "80045192",
+    "consumption_point_id": "RO001E123456789",
+    "invoice_series": "HID",
+    "invoice_number": "20260301199",
+    "issue_date": "2026-04-05",
+    "due_date": "2026-04-25",
+    "billing_period_start": "2026-03-01",
+    "billing_period_end": "2026-03-31",
+    "total_amount": 526.01,
+    "currency": "RON",
+    "meter_reading": {
+      "reading_type": "ESTIMATED",
+      "old_index": 14000,
+      "new_index": 14500,
+      "consumption_value": 500,
+      "consumption_unit": "kWh",
+      "self_reading_window_start": 24,
+      "self_reading_window_end": 28
+    },
+    "line_items": [
+      {
+        "line_type": "ACTIVE_ENERGY",
+        "raw_label": "Energie electrică activă — consum estimat",
+        "quantity": 500,
+        "unit": "kWh",
+        "unit_price_net": 0.369000,
+        "vat_rate_pct": 19,
+        "line_total_gross": 219.56
+      },
+      {
+        "line_type": "DISTRIBUTION_TAX",
+        "raw_label": "Tarif distribuție și transport energie electrică",
+        "quantity": 500,
+        "unit": "kWh",
+        "unit_price_net": 0.439649,
+        "vat_rate_pct": 19,
+        "line_total_gross": 261.59
+      },
+      {
+        "line_type": "OTHER",
+        "raw_label": "Certificate verzi și contribuție cogenerare",
+        "quantity": 500,
+        "unit": "kWh",
+        "unit_price_net": 0.075390,
+        "vat_rate_pct": 19,
+        "line_total_gross": 44.86
+      }
+    ]
+  }
+}

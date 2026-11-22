@@ -1,0 +1,30 @@
+# Secrets & environment variables (NEVER commit!)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+
+# WhatsApp Baileys session keys (PRIVATE — grants access to WhatsApp!)
+.baileys_auth/
+baileys_auth*/
+auth_info*/
+
+# Dependencies & build artifacts
+node_modules/
+dist/
+coverage/
+
+# Temporary files, generated QRs & logs
+tmp/
+*.log
+npm-debug.log*
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,134 @@
+{
+  "prior_estimated_invoice": {
+    "raw_text": "E.ON ENERGIE ROMANIA S.A. | CUI: RO22043010 | Factură serie EON nr. 7001001 | Cod client: 10029384 | CLC: RO002G987654 | Perioada: 01.01.2026 - 31.01.2026 | Consum estimat gaze naturale: 500 kWh | Fereastra autocitire: 18-25 | Total: 155,00 RON",
+    "invoice": {
+      "provider_name": "E.ON Energie Romania",
+      "provider_cui": "RO22043010",
+      "category": "GAS",
+      "client_code": "10029384",
+      "consumption_point_id": "RO002G987654",
+      "invoice_series": "EON",
+      "invoice_number": "7001001",
+      "issue_date": "2026-02-02",
+      "due_date": "2026-02-22",
+      "billing_period_start": "2026-01-01",
+      "billing_period_end": "2026-01-31",
+      "total_amount": 155.00,
+      "currency": "RON",
+      "meter_reading": {
+        "reading_type": "ESTIMATED",
+        "old_index": 3100,
+        "new_index": 3148,
+        "consumption_value": 500,
+        "consumption_unit": "kWh",
+        "self_reading_window_start": 18,
+        "self_reading_window_end": 25
+      },
+      "line_items": [
+        {
+          "line_type": "GAS_ENERGY",
+          "raw_label": "Gaze naturale consum estimat",
+          "quantity": 500,
+          "unit": "kWh",
+          "unit_price_net": 0.260504,
+          "vat_rate_pct": 19,
+          "line_total_gross": 155.00
+        }
+      ]
+    }
+  },
+  "regularization_invoice": {
+    "raw_text": "E.ON ENERGIE ROMANIA S.A. | CUI: RO22043010 | Factură regularizare serie EON nr. 7002055 | Cod client: 10029384 | CLC: RO002G987654 | Perioada: 01.01.2026 - 28.02.2026 | Regularizare citire operator | Storno estimare: -300 kWh | Consum real: 450 kWh | Total de plată: 46,50 RON",
+    "invoice": {
+      "provider_name": "E.ON Energie Romania",
+      "provider_cui": "RO22043010",
+      "category": "GAS",
+      "client_code": "10029384",
+      "consumption_point_id": "RO002G987654",
+      "invoice_series": "EON",
+      "invoice_number": "7002055",
+      "issue_date": "2026-03-04",
+      "due_date": "2026-03-24",
+      "billing_period_start": "2026-01-01",
+      "billing_period_end": "2026-02-28",
+      "total_amount": 46.50,
+      "currency": "RON",
+      "meter_reading": {
+        "reading_type": "REGULARIZATION",
+        "old_index": 3100,
+        "new_index": 3143,
+        "consumption_value": 150,
+        "consumption_unit": "kWh",
+        "self_reading_window_start": 18,
+        "self_reading_window_end": 25
+      },
+      "line_items": [
+        {
+          "line_type": "GAS_ENERGY",
+          "raw_label": "Storno gaze naturale consum estimat",
+          "quantity": -300,
+          "unit": "kWh",
+          "unit_price_net": 0.260504,
+          "vat_rate_pct": 19,
+          "line_total_gross": -93.00
+        },
+        {
+          "line_type": "GAS_ENERGY",
+          "raw_label": "Gaze naturale consum citit operator",
+          "quantity": 450,
+          "unit": "kWh",
+          "unit_price_net": 0.260504,
+          "vat_rate_pct": 19,
+          "line_total_gross": 139.50
+        }
+      ]
+    }
+  },
+  "creditor_invoice": {
+    "raw_text": "E.ON ENERGIE ROMANIA S.A. | CUI: RO22043010 | Factură regularizare storno serie EON nr. 7003099 | Cod client: 10029384 | CLC: RO002G987654 | Perioada: 01.03.2026 - 31.03.2026 | Sold creditor: -85,40 RON",
+    "invoice": {
+      "provider_name": "E.ON Energie Romania",
+      "provider_cui": "RO22043010",
+      "category": "GAS",
+      "client_code": "10029384",
+      "consumption_point_id": "RO002G987654",
+      "invoice_series": "EON",
+      "invoice_number": "7003099",
+      "issue_date": "2026-04-03",
+      "due_date": "2026-04-23",
+      "billing_period_start": "2026-03-01",
+      "billing_period_end": "2026-03-31",
+      "total_amount": -85.40,
+      "currency": "RON",
+      "meter_reading": {
+        "reading_type": "REGULARIZATION",
+        "old_index": 3143,
+        "new_index": 3155,
+        "consumption_value": -275.484,
+        "consumption_unit": "kWh",
+        "self_reading_window_start": 18,
+        "self_reading_window_end": 25
+      },
+      "line_items": [
+        {
+          "line_type": "GAS_ENERGY",
+          "raw_label": "Storno gaze naturale estimare anterioară",
+          "quantity": -400,
+          "unit": "kWh",
+          "unit_price_net": 0.260504,
+          "vat_rate_pct": 19,
+          "line_total_gross": -124.00
+        },
+        {
+          "line_type": "GAS_ENERGY",
+          "raw_label": "Gaze naturale consum real recalculat",
+          "quantity": 124.5161,
+          "unit": "kWh",
+          "unit_price_net": 0.260504,
+          "vat_rate_pct": 19,
+          "line_total_gross": 38.60
+        }
+      ]
+    }
+  }
+}

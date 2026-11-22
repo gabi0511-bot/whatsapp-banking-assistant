@@ -1,0 +1,47 @@
+{
+  "raw_text": "DIGI ROMANIA S.A. | CUI: RO5888716 | Factură serie DIGI nr. 99200415 | Cod client: 44109822 | Contract: DIGI-44109822 | Perioada: 01.03.2026 - 31.03.2026 | Abonament Fiberlink 1000: 50,00 RON | Penalități de întârziere: 3,50 RON | Total de plată: 53,50 RON | Scadență: 20.04.2026",
+  "invoice": {
+    "provider_name": "Digi Romania",
+    "provider_cui": "RO5888716",
+    "category": "TELECOM",
+    "client_code": "44109822",
+    "consumption_point_id": "DIGI-44109822",
+    "invoice_series": "DIGI",
+    "invoice_number": "99200415",
+    "issue_date": "2026-04-01",
+    "due_date": "2026-04-20",
+    "billing_period_start": "2026-03-01",
+    "billing_period_end": "2026-03-31",
+    "total_amount": 53.50,
+    "currency": "RON",
+    "meter_reading": {
+      "reading_type": "N_A",
+      "old_index": null,
+      "new_index": null,
+      "consumption_value": null,
+      "consumption_unit": null,
+      "self_reading_window_start": null,
+      "self_reading_window_end": null
+    },
+    "line_items": [
+      {
+        "line_type": "BASE_SUBSCRIPTION",
+        "raw_label": "Abonament Internet Fiberlink 1000",
+        "quantity": 1,
+        "unit": "luna",
+        "unit_price_net": 42.016807,
+        "vat_rate_pct": 19,
+        "line_total_gross": 50.00
+      },
+      {
+        "line_type": "PENALTY",
+        "raw_label": "Penalități de întârziere 0,1%/zi",
+        "quantity": 1,
+        "unit": "buc",
+        "unit_price_net": 3.500000,
+        "vat_rate_pct": 0,
+        "line_total_gross": 3.50
+      }
+    ]
+  }
+}

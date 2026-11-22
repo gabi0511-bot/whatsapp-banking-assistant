@@ -1,0 +1,50 @@
+{
+  "name": "invoice-xray",
+  "version": "1.0.0",
+  "description": "Invoice X-Ray — Automated Romanian Utility & Telecom Deep Invoice Audit & WhatsApp Agent",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "migrate": "tsx src/db/migrate.ts",
+    "seed:history": "tsx src/db/seed-history.ts",
+    "gmail:auth": "tsx scripts/gmail-auth.ts",
+    "simulate": "tsx scripts/simulate.ts",
+    "simulate:twin": "tsx scripts/simulate-twin.ts",
+    "simulate:radar": "tsx scripts/simulate-radar.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "decimal.js": "^10.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "fast-xml-parser": "^5.0.9",
+    "googleapis": "^148.0.0",
+    "node-cron": "^3.0.3",
+    "pdfjs-dist": "^5.2.133",
+    "pg": "^8.14.1",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.11",
+    "@types/qrcode": "^1.5.5",
+    "@types/qrcode-terminal": "^0.12.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}
