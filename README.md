@@ -145,4 +145,4 @@ Built as a team project for **Hack2026**:
 |---|---|---|
 | *(Banciu Alexandru)* | `@AlexTM033` | Backend / AI Architecture |
 | *(Sandru Gabriel)* | `@gabi0511-bot` | Invoice X-Ray & Integrations |
-| *(Hodos Mihai)* | `@MihneaHodos` | Frontend / Checkout UI & Testing |
+| *(Hodos Mihnea)* | `@MihneaHodos` | Frontend / Checkout UI & Testing |
