@@ -16,7 +16,7 @@
 
 ### 2. Strictly-Scoped Financial AI Twin (WhatsApp)
 - **Natural Conversation (Zero Fixed Commands):** Ask freely in Romanian (or English) — e.g., *"La ce mai am de plată?"*, *"Plătește factura de la ENGIE"*, *"Am vreun trial activ?"*, *"Compară-mi plățile de luna asta cu luna trecută și fă-mi un rating"*.
-- **3-Layer Defense-in-Depth Guardrail:** Deterministic pre-filter → strict JSON intent gatekeeper → live PostgreSQL tool-grounded generator. Off-topic requests and prompt injections are reliably blocked.
+- **3-Layer Defense-in-Depth Guardrail:** Deterministic pre-filter → strict JSON intent gatekeeper → live PostgreSQL tool-grounded generator. Off-topic requests and prompt injections are reliably blocked
 - **Multi-Model Gemini Flash Rotation:** Automatically rotates across healthy Gemini Flash models with per-model cooldown on `429`/`503` spikes, keeping responses fast and genuinely AI-generated.
 
 ### 3. Tracked Payment QR & Brushed-Metal Checkout Page (`/pay/:token`)
